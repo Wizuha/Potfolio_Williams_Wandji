@@ -1,0 +1,42 @@
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: #282c33;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  padding: 0 20px;
+  gap: 10px;
+  justify-content: center;
+  color: white;
+  font-family: "FiraCode-Bold";
+  font-size: 16px;
+}
+
+.right {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  color: white;
+}
+
+.right a {
+  color: white;
+  font-family: "FiraCode Medium";
+  font-size: 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.right a[href=""]::first-letter {
+  color: #c778dd;
+}

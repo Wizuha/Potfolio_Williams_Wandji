@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    width: 20px;
+    background-color: #282C33;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top:0;
+    margin-left: 17px;
+    gap:8px
+}
+
+.line{
+    border: solid #ABB2BF 1px;
+    width: 0;
+    height: 190px;
+    display: flex;
+    top: 0;
+}
