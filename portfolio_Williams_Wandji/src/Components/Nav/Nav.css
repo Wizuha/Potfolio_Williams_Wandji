@@ -1,4 +1,4 @@
-#content {
+#content-nav {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,6 +20,12 @@
   color: white;
   font-family: "FiraCode-Bold";
   font-size: 16px;
+  align-items: center;
+}
+
+.left img{
+  width: 16px;
+  height: 16px;
 }
 
 .right {

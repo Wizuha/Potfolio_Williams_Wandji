@@ -1,3 +1,133 @@
-#container {
-  background-color: #282C33;
+#content-home {
+  background-color: #282c33;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.first_content {
+  width: 1000px;
+  height: 423px;
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_content_left {
+  height: 100%;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.first_content_right {
+  height: 100%;
+  width: 50%;
+}
+
+.short_presentation {
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation {
+  font-family: "FiraCode SemiBold";
+  color: white;
+  font-size: 18px;
+}
+
+span {
+  color: #c778dd;
+}
+
+.presentation2 {
+  color: #abb2bf;
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+}
+
+.contactMe button {
+  border: solid 1px #c778dd;
+  background-color: #282c33;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.contactMe a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "FiraCode Medium";
+}
+
+.contactMe :hover {
+  transition: 300ms;
+  background-color: #c778dd51;
+}
+
+.first_content_right {
+  width: 456px;
+  height: 386px;
+  padding: 16px;
+}
+
+.citation {
+  margin-top: 69px;
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  margin-top: 106px;
+  width: 1027px;
+  height: 518px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+}
+
+.header_project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project_title{
+  font-family: "FiraCode Medium";
+  font-size: 32px;
+  color: #FFFF;
+  display: flex;  
+  align-items: center;
+  gap: 16px;
+}
+
+.line_title{
+  width: 411px;
+  height: 0px;
+  border: #c778dd solid 1px;
+}
+
+.view_all a{
+  font-family: "FiraCode Medium";
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.project_all{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }

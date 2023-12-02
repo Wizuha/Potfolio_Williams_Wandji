@@ -3,7 +3,7 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <div id="content">
+    <div id="content-nav">
       <div className="content">
         <div className="left">
             <img src="Union.svg" />
