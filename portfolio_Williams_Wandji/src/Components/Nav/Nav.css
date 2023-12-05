@@ -8,8 +8,9 @@
   background-color: #282c33;
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 1050px;
   align-items: center;
+  position: fixed;
 }
 
 .left {

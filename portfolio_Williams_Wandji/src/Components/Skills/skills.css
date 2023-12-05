@@ -1,0 +1,23 @@
+.skill {
+  width: 180px;
+  border: #abb2bf solid 1px;
+}
+
+.domaine {
+  font-family: "FiraCode SemiBold";
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+
+}
+
+.languages {
+  border: #abb2bf solid 1px;
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+  padding: 10px;
+}

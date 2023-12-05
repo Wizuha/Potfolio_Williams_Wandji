@@ -64,7 +64,7 @@ span {
   text-decoration: none;
 }
 
-.contactMe a{
+.contactMe a {
   color: #fff;
   text-decoration: none;
   font-family: "FiraCode Medium";
@@ -93,41 +93,155 @@ span {
   height: 518px;
 }
 
-.project{
+.project {
   display: flex;
   flex-direction: column;
 }
 
-.header_project{
+.header_project {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.project_title{
+.title {
   font-family: "FiraCode Medium";
   font-size: 32px;
-  color: #FFFF;
-  display: flex;  
+  color: #ffff;
+  display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.line_title{
-  width: 411px;
+.line_title {
+  width: 311px;
   height: 0px;
   border: #c778dd solid 1px;
 }
 
-.view_all a{
+.view_all a {
   font-family: "FiraCode Medium";
   color: #fff;
   font-size: 16px;
   text-decoration: none;
 }
 
-.project_all{
+.project_all {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.skill_all {
+  margin-top: 106px;
+  width: 100%;
+  height: 9000px;
+}
+
+.skill_content {
+  display: flex;
+  align-items: center;
+}
+
+.skill_all_left {
+  width: 45%;
+  height: 100%;
+}
+
+.skill_all_right {
+  width: 584px;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.aboutMe {
+  width: 100%;
+  height: 508px;
+  margin-top: 112px;
+  display: flex;
+}
+
+.aboutMe_content p {
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+  width: 100%;
+  margin-left: 10px;
+  height: auto;
+  line-height: 30px;
+}
+
+.aboutMe_left {
+  width: 50%;
+}
+
+.aboutMe_right img {
+  width: 100%;
+  height: 500px;
+  margin-left: 20%;
+}
+
+.contacts {
+  margin-top: 112px;
+}
+
+.contact_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_left {
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+  line-height: 30px;
+  width: 40%;
+}
+
+.contact_right {
+  border: #abb2bf 1px solid;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.contact_right a :hover{
+  color: white;
+}
+
+.my_mail {
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+}
+
+.my_discord {
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+}
+
+.contact_right a{
+  text-decoration: none;
+}
+
+.title_contact_right {
+  font-family: "FiraCode Semibold";
+  font-size: 16px;
+  color: white;
+  
+}
+
+.discord {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }

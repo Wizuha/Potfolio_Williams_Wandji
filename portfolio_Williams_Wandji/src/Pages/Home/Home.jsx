@@ -1,7 +1,34 @@
 import React from "react";
 import "./Home.css";
 import Card from "../../Components/Card/card";
+import Skills from "../../Components/Skills/skills";
 export default function home() {
+  const listSkill = [
+    {
+      domaine: "Outils",
+      content: "VSCode Figma Git Phtoshop Illustrator InDesign",
+    },
+    {
+      domaine: "Frameworks",
+      content: "React Node ",
+    },
+    {
+      domaine: "Base de donnée",
+      content: "MySQL PostgreSQL FireBase MongoDB",
+    },
+    {
+      domaine: "Front-end",
+      content: "HTML CSS Javascript",
+    },
+    {
+      domaine: "Back-end",
+      content: "PHP Python Django",
+    },
+    {
+      domaine: "Autre",
+      content: "REST API",
+    },
+  ];
   const listProject = [
     {
       img: "./poker.png",
@@ -45,7 +72,9 @@ export default function home() {
               </div>
               <div className="contactMe">
                 <button>
-                  <a href="">Contactez moi !!!</a>
+                  <a href="mailto:williams_wandji@yahoo.fr">
+                    Contactez moi !!!
+                  </a>
                 </button>
               </div>
             </div>
@@ -59,7 +88,7 @@ export default function home() {
         </div>
         <div className="project">
           <div className="header_project">
-            <div className="project_title">
+            <div className="title">
               <p>
                 <span>#</span>project
               </p>
@@ -73,6 +102,87 @@ export default function home() {
             {listProject.map((project, index) => (
               <Card content={project}></Card>
             ))}
+          </div>
+          <div className="skill_all">
+            <div className="skill_header">
+              <div className="title">
+                <p>
+                  <span>#</span>skills
+                </p>
+                <div className="line_title"></div>
+              </div>
+            </div>
+            <div className="content_skill_all"></div>
+            <div className="skill_content">
+              <div className="skill_all_left">
+                <img src="./Group 36.png" alt="" />
+              </div>
+              <div className="skill_all_right">
+                {listSkill.map((skill, index) => (
+                  <Skills content={skill}></Skills>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="aboutMe">
+            <div className="aboutMe_left">
+              <div className="title">
+                <p>
+                  <span>#</span>about-me
+                </p>
+                <div className="line_title"></div>
+              </div>
+              <div className="aboutMe_content">
+                <p>
+                  Salut, je suis WANDJI Williams!
+                  <br />
+                  <br />
+                  Je suis un étudiant de 23 ans à l'école du numérique HETIC. Je
+                  suis spécialisé dans le développement Front-end et je vis
+                  actuellement dans la banlieue Parisienne.
+                  <br />
+                  <br />
+                  Le monde du développement web s'est ouvert à moi il y a peu de
+                  temps après ma lassitude des petits boulots j'ai cherché un
+                  métier qui me permettrait de mélanger mes deux passions la
+                  découverte et la création.
+                </p>
+              </div>
+            </div>
+            <div className="aboutMe_right">
+              <img src="./Group 50.png" alt="" />
+            </div>
+          </div>
+          <div className="contacts">
+            <div className="title">
+              <p>
+                <span>#</span>contacts
+              </p>
+              <div className="line_title"></div>
+            </div>
+            <div className="contact_content">
+              <div className="contact_left">
+                <p>
+                  Je suis interessé par une opportunité freelance ! Alors si
+                  vous êtes interessé par mon profil n'hésitez pas à me
+                  contacter
+                </p>
+              </div>
+              <div className="contact_right">
+                <p className="title_contact_right">Envoyez moi un message !</p>
+                <div className="contact_right_socialNetwork">
+                  <a href="https://discord.com/channels/@me" className="discord">
+                    <div className="logo_discord"> <img src="./Vector_discord.png" alt="discord_logo" /></div>
+                    <div className="my_discord"><p>ocho#6415</p></div>
+                  </a>
+                    <a href="mailto:williams_wandji@yahoo.fr" className="mail">
+                      <div className="logo_mail"><img src="./Vector_mail.png" alt="mail_logo" /></div>
+                      <div className="my_mail"><p>williams_wandji@yahoo.fr</p></div>
+                    </a>
+                  <p></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -18,20 +18,21 @@
   color: #abb2bf;
   display: flex;
   align-items: center;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .title {
   font-family: "FiraCode Medium";
   font-size: 24px;
   color: #ffff;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .description {
   font-family: "FiraCode Regular";
   font-size: 16px;
   color: #abb2bf;
+  padding: 0 10px;
 }
 
 .redirection a {
@@ -45,6 +46,7 @@
 .redirection button {
   background-color: #282c33;
   border: solid 1px #c778dd;
+  margin-left: 10px;
 }
 
 .redirection :hover {
