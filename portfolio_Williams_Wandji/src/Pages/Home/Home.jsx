@@ -35,21 +35,21 @@ export default function home() {
       language: "Python",
       title: "Poker",
       description: "Jeu Poker contre une IA",
-      link: "Live",
+      link: "https://github.com/Wizuha/Poker",
     },
     {
       img: "Accueil.png",
       language: "HTML CSS Javascript PHP",
       title: "Social Network : Classlink",
       description: "Réseau Social pour étudiant",
-      link: "Live",
+      link: "https://github.com/Wizuha/Social-Network-Classlink",
     },
     {
       img: "./OIKOS.png",
       language: "HTML CSS Javascript PHP",
       title: "OIKOS",
       description: "Site de location immobilier",
-      link: "Live",
+      link: "https://github.com/Wizuha/OIKOS-Website-Project-FullStack",
     },
   ];
   return (
