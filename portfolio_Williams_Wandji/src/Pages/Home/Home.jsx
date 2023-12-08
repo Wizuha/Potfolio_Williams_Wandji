@@ -61,7 +61,7 @@ export default function home() {
               <div className="presentation">
                 <h1>
                   Moi c'est Wandji Williams je suis{" "}
-                  <span className="DF">Développeur Front end</span>
+                  <span className="DF">Développeur Full-Stack</span>
                 </h1>
               </div>
               <div className="presentation2">
@@ -71,9 +71,7 @@ export default function home() {
                 </p>
               </div>
               <div className="contactMe">
-                  <a href="mailto:williams_wandji@yahoo.fr">
-                    Contactez moi !!!
-                  </a>
+                <a href="mailto:williams_wandji@yahoo.fr">Contactez moi !!!</a>
               </div>
             </div>
           </div>
@@ -84,7 +82,7 @@ export default function home() {
         <div className="citation">
           <img src="./citation.png" />
         </div>
-        <div className="project">
+        <div className="project" id="project">
           <div className="header_project">
             <div className="title">
               <p>
@@ -101,7 +99,7 @@ export default function home() {
               <Card content={project}></Card>
             ))}
           </div>
-          <div className="skill_all">
+          <div className="skill_all" id="skills">
             <div className="skill_header">
               <div className="title">
                 <p>
@@ -122,7 +120,7 @@ export default function home() {
               </div>
             </div>
           </div>
-          <div className="aboutMe">
+          <div className="aboutMe" id="about-me">
             <div className="aboutMe_left">
               <div className="title">
                 <p>
@@ -136,7 +134,7 @@ export default function home() {
                   <br />
                   <br />
                   Je suis un étudiant de 23 ans à l'école du numérique HETIC. Je
-                  suis spécialisé dans le développement Front-end et je vis
+                  suis spécialisé dans le développement Full-Stack et je vis
                   actuellement dans la banlieue Parisienne.
                   <br />
                   <br />
@@ -151,7 +149,7 @@ export default function home() {
               <img src="./Group 50.png" alt="" />
             </div>
           </div>
-          <div className="contacts">
+          <div className="contacts" id="contact-me">
             <div className="title">
               <p>
                 <span>#</span>contacts
@@ -169,14 +167,26 @@ export default function home() {
               <div className="contact_right">
                 <p className="title_contact_right">Envoyez moi un message !</p>
                 <div className="contact_right_socialNetwork">
-                  <a href="https://discord.com/channels/@me" className="discord">
-                    <div className="logo_discord"> <img src="./Vector_discord.png" alt="discord_logo" /></div>
-                    <div className="my_discord"><p>ocho#6415</p></div>
+                  <a
+                    href="https://discord.com/channels/@me"
+                    className="discord"
+                  >
+                    <div className="logo_discord">
+                      {" "}
+                      <img src="./Vector_discord.png" alt="discord_logo" />
+                    </div>
+                    <div className="my_discord">
+                      <p>ocho#6415</p>
+                    </div>
                   </a>
-                    <a href="mailto:williams_wandji@yahoo.fr" className="mail">
-                      <div className="logo_mail"><img src="./Vector_mail.png" alt="mail_logo" /></div>
-                      <div className="my_mail"><p>williams_wandji@yahoo.fr</p></div>
-                    </a>
+                  <a href="mailto:williams_wandji@yahoo.fr" className="mail">
+                    <div className="logo_mail">
+                      <img src="./Vector_mail.png" alt="mail_logo" />
+                    </div>
+                    <div className="my_mail">
+                      <p>williams_wandji@yahoo.fr</p>
+                    </div>
+                  </a>
                   <p></p>
                 </div>
               </div>

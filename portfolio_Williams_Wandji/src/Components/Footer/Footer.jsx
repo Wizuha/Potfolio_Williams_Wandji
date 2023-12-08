@@ -12,7 +12,7 @@ export default function Footer() {
             <p>WANDJI Williams</p>
           </div>
           <div className="footer_left_bottom">
-            <p>Développeur Web Front-end</p>
+            <p>Développeur Web Full-Stack</p>
           </div>
         </div>
         <div className="footer_right">
