@@ -12,9 +12,7 @@ export default function Card(content) {
         <div className="title">{content["content"].title}</div>
         <div className="description">{content["content"].description}</div>
         <div className="redirection">
-          <button>
             <a href={content["content"].link}>Live ⇋</a>
-          </button>
         </div>
       </div>
     </div>

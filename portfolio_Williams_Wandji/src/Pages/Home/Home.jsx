@@ -71,11 +71,9 @@ export default function home() {
                 </p>
               </div>
               <div className="contactMe">
-                <button>
                   <a href="mailto:williams_wandji@yahoo.fr">
                     Contactez moi !!!
                   </a>
-                </button>
               </div>
             </div>
           </div>
@@ -94,9 +92,9 @@ export default function home() {
               </p>
               <div className="line_title"></div>
             </div>
-            <div className="view_all">
+            {/* <div className="view_all">
               <a href="">View all ➜ </a>
-            </div>
+            </div> */}
           </div>
           <div className="project_all">
             {listProject.map((project, index) => (

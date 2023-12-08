@@ -41,12 +41,8 @@
   text-decoration: none;
   font-size: 19px;
   margin: 15px;
-}
-
-.redirection button {
-  background-color: #282c33;
+  padding: 8px 16px;
   border: solid 1px #c778dd;
-  margin-left: 10px;
 }
 
 .redirection :hover {

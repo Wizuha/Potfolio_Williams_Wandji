@@ -6,7 +6,7 @@ export default function Left() {
       <div className="line"></div>
       <div className="lien">
         <a href="https://github.com/Wizuha">
-          <img src="./Github.svg" />
+          <img src="./Github.svg" alt="logo github" />
         </a>
       </div>
     </div>

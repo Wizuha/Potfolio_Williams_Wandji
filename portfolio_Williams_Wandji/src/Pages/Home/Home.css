@@ -68,6 +68,8 @@ span {
   color: #fff;
   text-decoration: none;
   font-family: "FiraCode Medium";
+  padding: 8px 16px;
+  border: solid 1px #c778dd;
 }
 
 .contactMe :hover {
