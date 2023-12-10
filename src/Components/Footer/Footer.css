@@ -13,6 +13,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  pointer-events: none;
 }
 .footer_content {
   margin-top: 32px;
