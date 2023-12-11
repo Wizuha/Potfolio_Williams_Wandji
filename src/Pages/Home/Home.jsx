@@ -6,7 +6,7 @@ export default function home() {
   const listSkill = [
     {
       domaine: "Outils",
-      content: "VSCode Figma Git Phtoshop Illustrator InDesign",
+      content: "VSCode Figma Git Photoshop Illustrator InDesign",
     },
     {
       domaine: "Frameworks",
