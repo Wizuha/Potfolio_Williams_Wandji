@@ -13,7 +13,7 @@ export default function home() {
       content: "React Node ",
     },
     {
-      domaine: "Base de donnée",
+      domaine: "Base de données",
       content: "MySQL PostgreSQL FireBase MongoDB",
     },
     {
@@ -71,7 +71,7 @@ export default function home() {
                 </p>
               </div>
               <div className="contactMe">
-                <a href="mailto:williams_wandji@yahoo.fr">Contactez moi !!!</a>
+                <a href="mailto:williams_wandji@yahoo.fr">Contactez-moi !!!</a>
               </div>
             </div>
           </div>
@@ -139,8 +139,8 @@ export default function home() {
                   <br />
                   <br />
                   Le monde du développement web s'est ouvert à moi il y a peu de
-                  temps après ma lassitude des petits boulots j'ai cherché un
-                  métier qui me permettrait de mélanger mes deux passions la
+                  temps, après ma lassitude des petits boulots. J'ai cherché un
+                  métier qui me permettrait de mélanger mes deux passions, la
                   découverte et la création.
                 </p>
               </div>
@@ -160,12 +160,12 @@ export default function home() {
               <div className="contact_left">
                 <p>
                   Je suis interessé par une opportunité freelance ! Alors si
-                  vous êtes interessé par mon profil n'hésitez pas à me
-                  contacter
+                  vous êtes interessés par mon profil n'hésitez pas à me
+                  contacter.
                 </p>
               </div>
               <div className="contact_right">
-                <p className="title_contact_right">Envoyez moi un message !</p>
+                <p className="title_contact_right">Envoyez-moi un message !</p>
                 <div className="contact_right_socialNetwork">
                   <a
                     href="https://discord.com/channels/@me"
