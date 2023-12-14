@@ -138,10 +138,13 @@ export default function home() {
                   actuellement dans la banlieue Parisienne.
                   <br />
                   <br />
-                  Le monde du développement web s'est ouvert à moi il y a peu de
-                  temps, après ma lassitude des petits boulots. J'ai cherché un
-                  métier qui me permettrait de mélanger mes deux passions, la
-                  découverte et la création.
+                  J'ai trouvé dans le développement web un métier qui me permet de
+                  combiner mes deux passions, la découverte et la création. 
+                  <br />
+                  <br />
+                  J'ai investi
+                  un temps considérable dans la recherche et dans le développement web afin de 
+                  créer des solutions digitale efficace et performante.
                 </p>
               </div>
             </div>
