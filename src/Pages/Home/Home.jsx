@@ -38,11 +38,11 @@ export default function home() {
       link: "https://github.com/Wizuha/Poker",
     },
     {
-      img: "Accueil.png",
-      language: "HTML CSS Javascript PHP",
-      title: "Social Network : Classlink",
-      description: "Réseau Social pour étudiant",
-      link: "https://github.com/Wizuha/Social-Network-Classlink",
+      img: "Todolist.png",
+      language: "React",
+      title: "Todolist",
+      description: "Liste de tâches",
+      link: "https://bit.ly/3RRGpTO",
     },
     {
       img: "./OIKOS.png",
