@@ -45,11 +45,11 @@ export default function home() {
       link: "https://bit.ly/3RRGpTO",
     },
     {
-      img: "./OIKOS.png",
-      language: "HTML CSS Javascript PHP",
-      title: "OIKOS",
-      description: "Site de location immobilier",
-      link: "https://github.com/Wizuha/OIKOS-Website-Project-FullStack",
+      img: "./Weather_app.png",
+      language: "React ",
+      title: "Weather_app",
+      description: "Météo d'une ville",
+      link: "https://bit.ly/3TKbni3",
     },
   ];
   return (
