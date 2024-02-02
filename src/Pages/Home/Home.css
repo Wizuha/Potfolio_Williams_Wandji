@@ -271,6 +271,16 @@ span {
 }
 
 @media screen and (min-width:1000px) {
+
+  #content-home {
+  background-color: #282c33;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
   .aboutMe_right img {
   width: 100%;
 

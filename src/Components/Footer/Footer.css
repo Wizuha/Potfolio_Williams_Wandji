@@ -92,7 +92,7 @@
   .footer_right {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 101px;
     width: 0;
   }
   .end {
