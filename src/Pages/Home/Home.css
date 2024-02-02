@@ -61,6 +61,7 @@ span {
   color: #abb2bf;
   font-family: "FiraCode Regular";
   font-size: 16px;
+  line-height: 30px;
 }
 
 .contactMe button {
@@ -220,6 +221,7 @@ span {
   color: #abb2bf;
   line-height: 30px;
   width: 40%;
+  margin-left: 10px;
 }
 
 .contact_right {
