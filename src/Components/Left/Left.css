@@ -17,3 +17,9 @@
     display: flex;
     top: 0;
 }
+
+@media screen and (max-width:1000px){
+    .container{
+        display: none;
+    }   
+}

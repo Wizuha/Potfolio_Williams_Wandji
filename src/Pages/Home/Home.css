@@ -12,14 +12,16 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1200px;
   height: 100%;
 }
 
 .first_content {
-  width: 1000px;
-  height: 423px;
+  width: 100%;
+  min-height: 423px;
   margin-top: 62px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -34,6 +36,10 @@
 .first_content_right {
   height: 100%;
   width: 50%;
+}
+.first_content_right img{
+  width: 100%;
+  object-fit: cover;
 }
 
 .short_presentation {
@@ -79,20 +85,27 @@ span {
 
 .first_content_right {
   width: 456px;
-  height: 386px;
+  min-height: 386px;
   padding: 16px;
 }
 
 .citation {
   margin-top: 69px;
   display: flex;
+  width: 100%;
   justify-content: center;
 }
+.citation img{
+  width: 100%;
+  max-width: 1100px;
+
+}
+
 
 .project {
   margin-top: 106px;
-  width: 1027px;
-  height: 518px;
+  width: 100%;
+  min-height: 518px;
 }
 
 .project {
@@ -104,6 +117,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .title {
@@ -113,11 +127,12 @@ span {
   display: flex;
   align-items: center;
   gap: 16px;
+  width: 100%;
 }
 
 .line_title {
   width: 311px;
-  height: 0px;
+  min-height: 0px;
   border: #c778dd solid 1px;
 }
 
@@ -131,28 +146,34 @@ span {
 .project_all {
   display: flex;
   gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .skill_all {
   margin-top: 106px;
   width: 100%;
-  height: 9000px;
+
 }
 
 .skill_content {
   display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
 .skill_all_left {
-  width: 45%;
+  /* width: 45%; */
   height: 100%;
 }
 
 .skill_all_right {
-  width: 584px;
-  height: 280px;
+  max-width: 584px;
+  min-height: 280px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -160,9 +181,11 @@ span {
 
 .aboutMe {
   width: 100%;
-  height: 508px;
+  min-height: 508px;
   margin-top: 112px;
-  display: flex;
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .aboutMe_content p {
@@ -176,13 +199,13 @@ span {
 }
 
 .aboutMe_left {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .aboutMe_right img {
   width: 100%;
-  height: 500px;
-  margin-left: 20%;
+
+  /* margin-left: 20%; */
 }
 
 .contacts {
@@ -246,4 +269,54 @@ span {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+@media screen and (min-width:1000px) {
+  .aboutMe_right img {
+  width: 100%;
+
+   margin-left: 20%; 
+}
+.aboutMe {
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+}
+@media screen and (max-width:1000px) {
+.contact_content{
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.first_content_left{
+  width: 90%;
+}
+.contact_left {
+  font-family: "FiraCode Regular";
+  font-size: 16px;
+  color: #abb2bf;
+  line-height: 30px;
+  width: 100%;
+  text-align: start;
+}
+.skill_all_right{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.aboutMe_right img {
+  width: 70%;
+}
+.aboutMe_right {
+  display: flex;
+  justify-content: center;
+}
+.line_title{
+  width: 100%;
+}
+.title p {
+  min-width: 140px;
+}
 }

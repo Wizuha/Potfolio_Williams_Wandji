@@ -1,7 +1,7 @@
 .card {
   width: 331px;
-  height: 391px;
   border: 1px #abb2bf solid;
+  padding-bottom: 30px;
 }
 
 .imgcontenair {
@@ -26,6 +26,7 @@
   font-size: 24px;
   color: #ffff;
   padding: 0 10px;
+  padding-top: 10px;
 }
 
 .description {
@@ -61,3 +62,4 @@
     width: 100%;
     background-size:cover;
 }
+
