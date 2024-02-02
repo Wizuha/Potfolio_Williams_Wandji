@@ -45,11 +45,11 @@ export default function home() {
       link: "https://bit.ly/3RRGpTO",
     },
     {
-      img: "./Weather_app.png",
+      img: "./Budget_App.png",
       language: "React ",
-      title: "Weather_app",
-      description: "Météo d'une ville",
-      link: "https://bit.ly/3TKbni3",
+      title: "Budget App",
+      description: "Calcul de budget",
+      link: "https://budget-app-sigma-bice.vercel.app",
     },
   ];
   return (
