@@ -5,8 +5,12 @@ import Skills from "../../Components/Skills/skills";
 export default function home() {
   const listSkill = [
     {
-      domaine: "Outils",
-      content: "VSCode Figma Git Photoshop Illustrator InDesign",
+      domaine: "Back-end",
+      content: "PHP Python Django",
+    },
+    {
+      domaine: "Front-end",
+      content: "HTML CSS Javascript",
     },
     {
       domaine: "Frameworks",
@@ -17,12 +21,8 @@ export default function home() {
       content: "MySQL PostgreSQL FireBase MongoDB",
     },
     {
-      domaine: "Front-end",
-      content: "HTML CSS Javascript",
-    },
-    {
-      domaine: "Back-end",
-      content: "PHP Python Django",
+      domaine: "Outils",
+      content: "VSCode Figma Git Photoshop Illustrator InDesign",
     },
     {
       domaine: "Autre",
@@ -35,7 +35,7 @@ export default function home() {
       language: "Python",
       title: "Poker",
       description: "Jeu Poker contre une IA",
-      link: "https://github.com/Wizuha/Poker",
+      link: "https://github.com/Wizuha/Poker/blob/main/src/poker.py",
     },
     {
       img: "Todolist.png",
