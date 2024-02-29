@@ -6,7 +6,7 @@ export default function home() {
   const listSkill = [
     {
       domaine: "Back-end",
-      content: "PHP Python Django",
+      content: "PHP Python Django Ruby",
     },
     {
       domaine: "Front-end",
@@ -26,7 +26,7 @@ export default function home() {
     },
     {
       domaine: "Autre",
-      content: "REST API",
+      content: "REST API Express",
     },
   ];
   const listProject = [
