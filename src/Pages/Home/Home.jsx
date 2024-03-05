@@ -25,7 +25,7 @@ export default function home() {
       content: "VSCode Figma Git Photoshop Illustrator InDesign",
     },
     {
-      domaine: "Autre",
+      domaine: "Autres",
       content: "REST API Express",
     },
   ];
