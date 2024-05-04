@@ -133,7 +133,7 @@ export default function home() {
                   Salut, je suis WANDJI Williams!
                   <br />
                   <br />
-                  Je suis un étudiant de 23 ans à l'école du numérique HETIC. Je
+                  Je suis un étudiant de 24 ans à l'école du numérique HETIC. Je
                   suis spécialisé dans le développement Full-Stack et je vis
                   actuellement dans la banlieue Parisienne.
                   <br />
