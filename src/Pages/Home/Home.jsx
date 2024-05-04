@@ -96,7 +96,7 @@ export default function home() {
           </div>
           <div className="project_all">
             {listProject.map((project, index) => (
-              <Card content={project}></Card>
+              <Card key={index} content={project}></Card>
             ))}
           </div>
           <div className="skill_all" id="skills">
