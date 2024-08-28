@@ -31,24 +31,24 @@ export default function home() {
   ];
   const listProject = [
     {
-      img: "./poker.png",
-      language: "Python",
-      title: "Poker",
-      description: "Jeu Poker contre une IA",
-      link: "https://github.com/Wizuha/Poker/blob/main/src/poker.py",
+      img: "./AI-Travel-project.png",
+      language: "React, Firebase, GeminiAI",
+      title: "AI Travel Project",
+      description: "Vous voulez plannifier votre prochain voyage? Voici l'application adéquate pour vous ",
+      link: "https://ai-project-travel.vercel.app",
     },
     {
       img: "Todolist.png",
       language: "React",
       title: "Todolist",
-      description: "Liste de tâches",
+      description: "Vous voulez lister vos tâches? Voici la todolist qu'il vous faut.",
       link: "https://bit.ly/3RRGpTO",
     },
     {
       img: "./Budget_App.png",
       language: "React ",
       title: "Budget App",
-      description: "Calcul de budget",
+      description: "Une application qui vous permet de calculer votre budget du mois.",
       link: "https://budget-app-sigma-bice.vercel.app",
     },
   ];
