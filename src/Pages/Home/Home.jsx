@@ -67,7 +67,7 @@ export default function home() {
               <div className="presentation2">
                 <p>
                   Je prépare actuellement un Bachelor Concepteur Développeur de
-                  solution digitale en 2ème Année.
+                  solution digitale en 3ème Année.
                 </p>
               </div>
               <div className="contactMe">
