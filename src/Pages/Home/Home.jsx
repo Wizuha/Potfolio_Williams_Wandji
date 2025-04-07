@@ -61,13 +61,13 @@ export default function home() {
               <div className="presentation">
                 <h1>
                   Moi c'est Wandji Williams je suis{" "}
-                  <span className="DF">Développeur Full-Stack</span>
+                  <span className="DF">Développeur Back end</span>
                 </h1>
               </div>
               <div className="presentation2">
                 <p>
                   Je prépare actuellement un Bachelor Concepteur Développeur de
-                  solution digitale en 3ème Année.
+                  solution digitale.
                 </p>
               </div>
               <div className="contactMe">
@@ -133,9 +133,9 @@ export default function home() {
                   Salut, je suis WANDJI Williams!
                   <br />
                   <br />
-                  Je suis un étudiant de 24 ans à l'école du numérique HETIC. Je
-                  suis spécialisé dans le développement Full-Stack et je vis
-                  actuellement dans la banlieue Parisienne.
+                  Je suis un étudiant de 25 ans à l'école du numérique HETIC. Je
+                  suis spécialisé dans le développement Back end et je vis
+                  actuellement en banlieue Parisienne.
                   <br />
                   <br />
                   J'ai trouvé dans le développement web un métier qui me permet de
